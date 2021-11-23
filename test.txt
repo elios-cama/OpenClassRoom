@@ -1,0 +1,23 @@
+footer {
+    
+    
+    background-color: grey;
+    position: absolute;
+    bottom: 0;
+    min-width: 10%;
+    
+}
+footer,td{
+    padding-right: 50px;
+    min-width: 100%;
+    position: absolute;
+    margin-top: -200px;
+}
+header{
+    background-color: grey;
+    position:relative;
+    min-width: 100%;
+}
+body{
+    min-height: 100%;
+}

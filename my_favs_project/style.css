@@ -1,0 +1,43 @@
+table, th, tr, td {
+    border: solid black;
+    border-radius: 5px;
+    border-width: 3px;
+    
+   }
+body{
+    background-color: blanchedalmond;
+}
+   
+   td {
+    padding: 0 10px;
+   }
+
+
+td{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+img{
+    max-width: 150px;
+    max-height: 150px;
+    overflow: hidden;
+    border: solid transparent;
+    border-radius: 5px;
+}
+td,th{
+    width: 300px;
+}
+.fav{
+    color: red;
+}
+.notFav{
+    color: blue;
+}
+.favHeader{
+    background-color: blueviolet;
+    color: white;
+}
+.notFavHeader{
+    background-color: salmon;
+    color: white;
+}

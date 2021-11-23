@@ -1,0 +1,129 @@
+
+.gif{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 240 ;
+    height: 426;
+}
+
+
+
+header img{
+  height: 40px;
+  margin-left: 40px;
+  }
+  header {
+    background-color: white;
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 70px;
+    display: flex;
+    align-items: center;
+  }
+  header nav{
+    margin-left: auto;
+    display: flex;
+      align-items: center;
+  }
+  
+  body{
+  background-color: aliceblue;
+  margin: 0;
+  }
+  header * {
+  display: inline;
+  }
+  header li{
+  justify-content: center;
+  margin: 20px;
+  }
+  header li a {
+   color: black;
+  text-decoration: none;
+  }
+  header li a i{
+    color: grey;
+  }
+  header li button{
+    border: solid 1px grey;
+    border-radius: 10px;
+    padding: 5px;
+  }
+  .MainImg{
+    max-width: 1000px;
+    margin: 10px auto 20px;
+    display: block;
+  }
+  .TextContainer{
+    margin-left: 25%;
+    margin-right: 25%;
+  }
+  tr{
+    height: 70px;
+  }
+  i.fab{
+  display: inline-block;
+  border-radius: 60px;
+  background-color: black;
+  color: white;
+  box-shadow: 0px 0px 2px #888;
+  padding: 5px;
+  }
+  
+  .iconTab{
+    padding-left: 200px;
+  }
+  .footer{
+    
+    
+    
+    background-color: black;
+    text-decoration: white;
+    
+    display: flex;
+    align-items: center;
+  }
+  
+  footer{
+    min-width: 100vh;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 50px;
+    margin: none;
+    background-color: black;
+    text-decoration: white;
+
+  }
+  footer table{
+    color: white;
+  }
+  footer table h3{
+    color: grey;
+  }
+  .medium{
+    color: white;
+    font-size: large;
+    font-family: 'Libre Baskerville', serif;
+  }
+
+  .ContainerFooter{
+    color: white;
+    margin-left: auto;
+    display: flex;
+      align-items: center;
+    
+  }
+  .footer *{
+    display: inline
+  }
+  .ContainerFooter div p{
+    justify-content: center;
+     margin: 20px;
+  }
+  .container{
+    display: flex;
+    align-items: center;
+  }
