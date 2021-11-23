@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-image: url('images/fond_jaune.png');
+}
+body{
+    margin: auto;
+    width: 70%;
+}
+li,a, button{
+    font-size: 16px;
+}
+
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: baseline;
+    padding: 30px, 10%;
+    margin-bottom: 20px;
+    border-bottom: brown dashed;
+}
+#logo{
+    display: flex;
+    align-items: baseline;
+}
+#LogoAndSentence{
+    margin-right: auto;
+}
+.nav_links{
+    list-style: none;
+}
+.nav_links li{
+    display: inline-block;
+    padding: 0px 20px;
+
+}
+.nav_links li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    transition: all 0.3s ease 0s;
+}
+.nav_links li a:hover{
+    border-bottom: red solid 2px;
+}
